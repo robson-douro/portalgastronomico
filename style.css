@@ -116,3 +116,15 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+/* Ajustes para telas pequenas */
+@media (max-width: 480px) {
+    nav ul {
+        gap: 5px; /* Reduz o espaço entre os links */
+        flex-wrap: wrap; /* Permite quebrar linha caso falte espaço */
+    }
+
+    nav a {
+        padding: 6px 10px; /* Reduz o espaçamento interno dos botões */
+        font-size: 0.9rem; /* Diminui o tamanho do texto */
+    }
+}
