@@ -64,11 +64,13 @@ main {
     border-radius: 6px;
     border: 1px solid #e0e0e0;
     margin-bottom: 40px;
+    text-align: justify;
 }
 
 .introducao h2 {
     color: #2c3e50;
     margin-bottom: 12px;
+    text-align: left;
 }
 
 /* Grid de Vitrine / Destaques */
@@ -99,12 +101,14 @@ main {
 
 .card-corpo {
     padding: 20px;
+    text-align: justify;
 }
 
 .card-corpo h3 {
     color: #2c3e50;
     margin-bottom: 10px;
     font-size: 1.25rem;
+    text-align: left;
 }
 
 /* Rodapé */
@@ -116,6 +120,7 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+
 /* Ajustes para telas pequenas */
 @media (max-width: 480px) {
     nav ul {
