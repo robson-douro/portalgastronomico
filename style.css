@@ -57,9 +57,10 @@ main {
     padding: 0 20px;
 }
 
-/* Aplica a justificação geral para todos os parágrafos do conteúdo */
+/* Justifica os textos das páginas e introdução, tratando os espaços entre palavras */
 main p {
     text-align: justify;
+    text-justify: inter-word;
     margin-bottom: 15px;
 }
 
@@ -112,6 +113,11 @@ main h2, main h3 {
     padding: 20px;
 }
 
+/* NO COMPUTADOR: Remove o justify dos cards pequenos para evitar os buracos de espaço */
+.card-corpo p {
+    text-align: left;
+}
+
 .card-corpo h3 {
     color: #2c3e50;
     margin-bottom: 10px;
@@ -138,5 +144,10 @@ footer {
     nav a {
         padding: 6px 10px;
         font-size: 0.9rem;
+    }
+
+    /* NO CELULAR: Ativa o justify dentro dos cards */
+    .card-corpo p {
+        text-align: justify;
     }
 }
