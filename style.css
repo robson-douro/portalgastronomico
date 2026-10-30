@@ -57,6 +57,17 @@ main {
     padding: 0 20px;
 }
 
+/* Aplica a justificação geral para todos os parágrafos do conteúdo */
+main p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Garante que os títulos internos fiquem alinhados à esquerda padrão */
+main h2, main h3 {
+    text-align: left;
+}
+
 /* Bloco de Introdução institucional */
 .introducao {
     background-color: #ffffff;
@@ -64,13 +75,11 @@ main {
     border-radius: 6px;
     border: 1px solid #e0e0e0;
     margin-bottom: 40px;
-    text-align: justify;
 }
 
 .introducao h2 {
     color: #2c3e50;
     margin-bottom: 12px;
-    text-align: left;
 }
 
 /* Grid de Vitrine / Destaques */
@@ -101,14 +110,12 @@ main {
 
 .card-corpo {
     padding: 20px;
-    text-align: justify;
 }
 
 .card-corpo h3 {
     color: #2c3e50;
     margin-bottom: 10px;
     font-size: 1.25rem;
-    text-align: left;
 }
 
 /* Rodapé */
@@ -124,12 +131,12 @@ footer {
 /* Ajustes para telas pequenas */
 @media (max-width: 480px) {
     nav ul {
-        gap: 5px; /* Reduz o espaço entre os links */
-        flex-wrap: wrap; /* Permite quebrar linha caso falte espaço */
+        gap: 5px;
+        flex-wrap: wrap;
     }
 
     nav a {
-        padding: 6px 10px; /* Reduz o espaçamento interno dos botões */
-        font-size: 0.9rem; /* Diminui o tamanho do texto */
+        padding: 6px 10px;
+        font-size: 0.9rem;
     }
 }
