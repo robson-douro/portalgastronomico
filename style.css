@@ -107,6 +107,9 @@ main h2, main h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* AJUSTE: Garante que os cantos superiores da imagem acompanhem o arredondamento do card */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .card-corpo {
@@ -146,8 +149,8 @@ footer {
         font-size: 0.9rem;
     }
 
-    /* NO CELULAR: Ativa o justify dentro dos cards */
+    /* CORREÇÃO DO CELULAR: Alinha à esquerda para eliminar os buracos no texto do card */
     .card-corpo p {
-        text-align: justify;
+        text-align: left;
     }
 }
