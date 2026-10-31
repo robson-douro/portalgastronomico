@@ -153,4 +153,9 @@ footer {
     .card-corpo p {
         text-align: left;
     }
+
+    /* CORREÇÃO DO CELULAR: Alinha o texto da introdução à esquerda para evitar espaçamentos grandes */
+    .introducao p {
+        text-align: left;
+    }
 }
