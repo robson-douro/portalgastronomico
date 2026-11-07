@@ -57,14 +57,12 @@ main {
     padding: 0 20px;
 }
 
-/* Justifica os textos das páginas e introdução, tratando os espaços entre palavras */
 main p {
     text-align: justify;
     text-justify: inter-word;
     margin-bottom: 15px;
 }
 
-/* Garante que os títulos internos fiquem alinhados à esquerda padrão */
 main h2, main h3 {
     text-align: left;
 }
@@ -107,7 +105,7 @@ main h2, main h3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* AJUSTE: Garante que os cantos superiores da imagem acompanhem o arredondamento do card */
+    /* Arredondamento do card */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -116,7 +114,6 @@ main h2, main h3 {
     padding: 20px;
 }
 
-/* NO COMPUTADOR: Remove o justify dos cards pequenos para evitar os buracos de espaço */
 .card-corpo p {
     text-align: left;
 }
@@ -149,12 +146,10 @@ footer {
         font-size: 0.9rem;
     }
 
-    /* CORREÇÃO DO CELULAR: Alinha à esquerda para eliminar os buracos no texto do card */
     .card-corpo p {
         text-align: left;
     }
 
-    /* CORREÇÃO DO CELULAR: Alinha o texto da introdução à esquerda para evitar espaçamentos grandes */
     .introducao p {
         text-align: left;
     }
